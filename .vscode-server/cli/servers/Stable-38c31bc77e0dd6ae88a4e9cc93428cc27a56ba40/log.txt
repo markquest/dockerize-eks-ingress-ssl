@@ -1,0 +1,64 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-4887118d-073b-4b51-a341-b54293fb8357
+Extension host agent listening on /tmp/code-4887118d-073b-4b51-a341-b54293fb8357
+
+[16:20:18] 
+
+
+
+
+[16:20:19] Extension host agent started.
+[16:20:19] [<unknown>][3c854bf6][ManagementConnection] New connection established.
+[16:20:19] [<unknown>][32641445][ExtensionHostConnection] New connection established.
+[16:20:19] [<unknown>][32641445][ExtensionHostConnection] <1610> Launched Extension Host Process.
+[16:20:36] [<unknown>][3c854bf6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:20:36] [<unknown>][32641445][ExtensionHostConnection] <1610> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[16:20:36] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[16:20:36] Last EH closed, waiting before shutting down
+[16:20:40] [<unknown>][9c7a0c08][ManagementConnection] New connection established.
+[16:20:40] [<unknown>][07b1572d][ExtensionHostConnection] New connection established.
+[16:20:40] [<unknown>][07b1572d][ExtensionHostConnection] <1809> Launched Extension Host Process.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[16:20:42] Error [CodeExpectedError]: Could not find pty on pty host
+    at L.U (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[16:20:43] [<unknown>][9c7a0c08][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/server-main.js:1:437)
+    at process.emit (node:events:531:35)
+[16:20:43] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)

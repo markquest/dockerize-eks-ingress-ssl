@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tractor - Farmers Market Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            text-align: center;
+        }
+        h1 {
+            color: green;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+        .form-container {
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="tracktor.jpeg" alt="Tractor Logo" width="150">
+    </div>
+    <h1>Welcome to Tractor</h1>
+    <p>Your marketplace for farm-fresh produce</p>
+
+    <div class="form-container">
+        <h2>Farmer Sign Up</h2>
+        <form action="/signup" method="POST">
+            <input type="text" name="name" placeholder="Farmer's Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="market" placeholder="Farmers Market" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>
+

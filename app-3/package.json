@@ -1,0 +1,18 @@
+{
+  "name": "tractor",
+  "version": "1.0.0",
+  "description": "A web application for farmers markets to list their products.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "nodemailer": "^6.4.17",
+    "bcrypt": "^5.0.1"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
+

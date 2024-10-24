@@ -1,0 +1,1171 @@
+2024-10-23 16:45:50.212 [info] Extension host with pid 2455 started
+2024-10-23 16:45:50.212 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/64b75115ed01016f1c21d4aa84949e1e/vscode.lock'
+2024-10-23 16:45:50.234 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/64b75115ed01016f1c21d4aa84949e1e/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-23 16:45:50.255 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/64b75115ed01016f1c21d4aa84949e1e/vscode.lock': The lock does not look stale, elapsed: 487 ms, giving up.
+2024-10-23 16:45:50.258 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/64b75115ed01016f1c21d4aa84949e1e-1/vscode.lock'
+2024-10-23 16:45:50.260 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/64b75115ed01016f1c21d4aa84949e1e-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-23 16:45:50.261 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/64b75115ed01016f1c21d4aa84949e1e-1/vscode.lock': The lock does not look stale, elapsed: 740 ms, giving up.
+2024-10-23 16:45:50.268 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/64b75115ed01016f1c21d4aa84949e1e-2/vscode.lock': Lock acquired.
+2024-10-23 16:45:51.407 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-23 16:45:51.409 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: false, activationEvent: 'onLanguage:terraform'
+2024-10-23 16:45:51.411 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-23 16:45:52.036 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-23 16:45:52.037 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-23 16:45:54.352 [info] Eager extensions activated
+2024-10-23 16:45:54.352 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 16:45:54.353 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 16:45:55.916 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 16:45:55.916 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,9
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 16:45:55.918 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 16:45:55.918 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,9
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 16:45:56.479 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 16:45:56.479 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,9
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:11:02.486 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:11:02.486 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,9
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:11:02.672 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:11:02.672 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,9
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:11:11.369 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:11:11.370 [error] Error: locals.tf (3,24): position outside of any attribute name, value or block
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:11:11.781 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:11:11.781 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:31.626 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:31.626 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:32.308 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:32.308 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:32.317 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:32.317 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:32.339 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:32.339 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:32.367 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:32.369 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:32.390 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:32.390 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:34.242 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:34.242 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,9
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:34.471 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:34.471 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,9
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:38.454 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:38.455 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,1
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:16:39.169 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:16:39.172 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,1
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:24.259 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:24.259 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,4
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:24.783 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:24.783 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-4,7
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:25.564 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:25.564 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:26.277 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:26.277 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:27.325 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:27.325 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:27.494 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:27.495 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:28.073 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:28.073 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:28.410 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:28.410 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:29.434 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:29.435 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:29.899 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:29.900 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:30.424 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:30.424 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:31.121 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:31.121 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:32.359 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:32.360 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:32.648 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:32.648 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:33.041 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:33.041 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-9,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:33.715 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:33.715 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-9,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:34.447 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:34.447 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:35.142 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:35.142 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:38.239 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:38.239 [error] Error: no reference origin found
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:39.301 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:39.302 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:39.580 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:39.580 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:41.931 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:41.931 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:42.638 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:42.639 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:45.326 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:45.326 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:46.498 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:46.498 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:47.313 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:47.313 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:47.625 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:47.625 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:48.122 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:48.122 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:48.520 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:48.520 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:48.849 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:48.850 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:49.162 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:49.162 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:50.119 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:50.120 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:51.064 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:51.064 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:51.386 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:51.386 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:52.083 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:52.083 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:53.952 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:53.953 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:54.652 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:54.652 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:56.234 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:56.235 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:56.937 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:56.937 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:57.625 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:57.625 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:58.275 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:58.275 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:58.614 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:58.614 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:58.925 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:58.925 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:19:59.405 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:19:59.405 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:00.408 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:00.409 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:00.791 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:00.791 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:01.506 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:01.506 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:03.429 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:03.430 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:04.261 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:04.261 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:08.983 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:08.983 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:09.571 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:09.571 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:10.301 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:10.301 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:11.956 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:11.956 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:12.634 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:12.634 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:15.356 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:15.356 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:15.842 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:15.842 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:16.034 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:16.034 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:16.897 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:16.897 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:17.738 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:17.738 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:18.376 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:18.376 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:18.635 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:18.635 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:19.432 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:19.432 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:23.907 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:23.907 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:24.611 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:24.611 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:26.775 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:26.775 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:27.309 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:27.309 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:28.267 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:28.267 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:28.685 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:28.685 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:29.467 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:29.467 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:29.947 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:29.947 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:30.717 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:30.718 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:31.068 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:31.068 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:31.427 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:31.427 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:32.447 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:32.447 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:33.004 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:33.004 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:34.169 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:34.169 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:34.996 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:34.996 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:35.329 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:35.330 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:35.593 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:35.593 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:36.727 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:36.727 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:37.675 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:37.675 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:38.004 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:38.004 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:39.419 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:39.419 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:40.458 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:40.458 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:40.856 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:40.857 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:40.979 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:40.979 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:42.558 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:42.558 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:42.889 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:42.889 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:43.573 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:43.574 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:44.678 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:44.678 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:45.376 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:45.376 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:45.749 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:45.750 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:46.880 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:46.880 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:47.991 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:47.991 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:47.996 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:47.996 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:48.264 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:48.264 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:48.835 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:48.835 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:49.530 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:49.530 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:50.738 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:50.738 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:51.614 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:51.614 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:53.018 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:53.018 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:53.906 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:53.906 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:54.610 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:54.611 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:55.383 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:55.383 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:55.867 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:55.867 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:56.412 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:56.412 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:56.891 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:56.892 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:57.568 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:57.568 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:58.125 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:58.125 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:58.720 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:58.721 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:20:59.596 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:20:59.596 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:00.358 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:00.358 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:00.719 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:00.719 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:01.577 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:01.577 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:02.214 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:02.214 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:03.210 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:03.210 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:03.548 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:03.548 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:04.374 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:04.374 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:05.036 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:05.036 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:05.834 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:05.834 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:06.202 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:06.202 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:06.926 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:06.926 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-6,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:11.692 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:11.692 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:12.384 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:12.384 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:13.038 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:13.038 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:13.441 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:13.441 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:13.926 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:13.926 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:14.826 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:14.826 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:15.437 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:15.437 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:16.329 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:16.329 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:18.221 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:18.221 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:18.501 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:18.501 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:19.306 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:19.306 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:21.805 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:21.806 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:22.717 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:22.717 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:23.056 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:23.056 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-7,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:23.742 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:23.742 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-9,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:24.451 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:24.451 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-9,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:25.527 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:25.527 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:25.903 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:25.903 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:26.355 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:26.355 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:26.753 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:26.753 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:27.181 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:27.181 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:27.748 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:27.748 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:28.120 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:28.120 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:28.829 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:28.829 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:29.567 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:29.568 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
+2024-10-23 17:21:30.280 [error] [hashicorp.terraform] provider FAILED
+2024-10-23 17:21:30.280 [error] Error: main.tf: position 1,1 is out of range main.tf:1,2-8,2
+	at It (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:19:236)
+	at We (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6246)
+	at mt (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6372)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/hashicorp.terraform-2.33.0-linux-x64/dist/extension.js:18:6133)
+	at process.processImmediate (node:internal/timers:483:21)
